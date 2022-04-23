@@ -1,0 +1,238 @@
+.Menu {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.Menu .Menu-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.Menu .Menu-item:hover {
+    background-color: #f0f0f0;
+}
+.Menu .Menu-item:first-child {
+    border-radius: 5px 5px 0 0;
+}
+.Menu .Menu-item:last-child {
+    border-radius: 0 0 5px 5px;
+}
+.Menu .Menu-item:hover:first-child {
+    border-radius: 5px 5px 0 0;
+}
+.Menu .Menu-item:hover:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+.Menu ul {
+    margin: 0;
+    line-height: normal;
+    padding: 0.3em 0px 0px 0px;
+    list-style-type:none;
+    white-space:nowrap;
+    overflow-x:auto;
+    text-align: center; 
+}
+
+.Menu li {
+    /* width: 80px; */
+    display: inline-block;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+  }
+  .Menu li a {
+    display: block;
+    padding: 0.5em 0.5em 0.3em 0.3em;
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    font-weight: bold;
+  }
+    .Menu li a:hover {
+        background-color: #d0d0d0;
+        transition: 0.9s;
+    }
+    .Menu li a:active {
+        background-color: #d0d0d0;
+        transition: 0.9s;
+    }
+    .Menu li a:hover:active {
+        background-color: #9d9d9d;
+        transition: 0.9s;
+    }
+    
+.Menu a {
+    display: block;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    line-height: 50px;
+    border: none;
+    color: #000;
+  }
+
+.Present{
+    background-image: url("./images/image-clube.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30em;
+    /* margin-bottom: 2em; */
+    display: block;
+    position: fixed;
+    filter: blur(3px); 
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    font-family: Montserrat;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    color: white;
+  }
+
+  .content p{
+      margin-top: 6em;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    margin-top: 40px;
+    text-align: right;
+    
+    background-color: rgb(142, 142, 142);
+  }
+
+  footer p{
+    color: white;
+    font-family: Montserrat;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .cadastros > *{
+    padding : 3em;
+    font-family: Montserrat;
+    margin-top: 1em;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    transition: 0.9s;
+  }
+
+.cadastros #cadastroUnidades:hover{
+    background-color: #54d5a3;
+}
+
+.cadastros #cadastroDesbravadores:hover{
+    background-color: #54aad5;
+}
+
+.cadastros #cadastroClasses:hover{
+    background-color: #d5c854;
+}
+
+.cadastros #cadastroEspecialidades:hover{
+    background-color: #d55454;
+}
+
+.form{
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    width: 80%;
+    font-family: Montserrat;
+    font-size: 1em;
+    color: #000;
+    text-align:center;
+}
+.buttonCadastrar{
+    background-color: #54d5a3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    margin-top: 2em;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.9s;
+    width: 80%;
+    /* right: 10px; */
+}
+
+#headerUnidades{
+    background-image: url("./images/image-lenco.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    margin-top: 2em;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.9s;
+    width: 80%;
+    margin-bottom: 3em;
+    /* right: 10px; */
+}
+
+#headerUnidades > h1{
+    margin-top: 2em;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: Montserrat;
+    text-shadow: 3px 3px 3px black;
+}
+#space{
+    margin-top: 5em;
+}
